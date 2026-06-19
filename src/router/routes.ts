@@ -1,6 +1,7 @@
-import Home from "@/views/home.vue";
-import About from "@/views/about.vue";
-import Project from "@/views/project.vue";
+import Home from "@/views/Home.vue";
+import About from "@/views/About.vue";
+import Project from "@/views/Project.vue";
+import NotFoundView from "@/views/NotFoundView.vue";
 
 export const routes = [
   {
@@ -19,9 +20,8 @@ export const routes = [
     component: Project,
   },
   {
-    // Catch-all 404 must be last.
     path: "/:pathMatch(.*)*",
     name: "not-found",
-    component: () => import("@/views/NotFoundView.vue"),
+    component: NotFoundView,
   },
 ];

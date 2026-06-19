@@ -1,11 +1,7 @@
 <template>
   <div>
-    <h1>Page not found</h1>
+    <h1>404 - Page Not Found</h1>
   </div>
 </template>
 
-<script setup lang="ts">
-</script>
-
-<style lang="scss" scoped>
-</style>
+<script setup lang="ts"></script>
